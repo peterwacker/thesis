@@ -1,5 +1,7 @@
 """This code just print even numbers."""
 
+__author__ = "Peter Wacker"
+
 
 def even_number_print():
     """Prints even numbers."""
@@ -21,7 +23,7 @@ numbers: "))
             print("Wrong input, try again!")
             continue
 
-    for even_number in range(0, n):
+    for even_number in range(0, n+1):
         # Checks if number is even or not.
         if even_number % 2 == 0:
             print(even_number)
